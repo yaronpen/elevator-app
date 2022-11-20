@@ -1,0 +1,64 @@
+.floor_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+.floor {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  width: 100%;
+  position:inherit
+}
+
+.floor_span {
+  width: 50px;
+  margin-inline-end: 40px;
+}
+
+.elevator_icon {
+  width: 40px;
+}
+
+.elevator_span {
+  width: 160px;
+  height: 60px;
+  display: inline-block;
+  border-style: ridge;
+}
+
+.button_span {
+  margin-inline-start: 40px;
+}
+
+.Call {
+  background-color: #5BCD88; 
+  color: white;
+  border-style: solid;
+  padding-inline: 30px;
+}
+
+.Waiting {
+  background-color: #ED484D; 
+  color: white;
+  border-style: solid;
+  padding-inline: 30px;
+}
+
+.Arrived {
+  color: #7AD39D;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border-style: solid;
+  padding-inline: 30px;
+}
